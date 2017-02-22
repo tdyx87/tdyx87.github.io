@@ -1,1 +1,342 @@
-<h1>test</h1>
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Ios mini Game</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/site.min.css">
+ 
+<style type="text/css" lanyezi="lanyezi">
+</style>
+
+
+
+<style type="text/css">
+#ad_3v{
+  display:none;
+}
+</style>
+
+<script>
+</script>
+</head>
+<script src="./js/jquery.min.js"></script> 
+<script src="./js/bootstrap.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  
+    
+  
+  $(".link").click(function(){
+     var obj = $(this);
+	 var url = "https://itunes.apple.com/us/app/id"+obj.attr("id")+"?mt=8";
+	 location.href = url;
+	 var appleid=obj.attr("id");
+	 $.get("updateDownload.asp",{ id: appleid }, function(data) {
+	  var download  =  "div>#appleid"+appleid;
+	  var download=$(download);
+	  download.html("Download times:"+data+"  times");
+    })
+    .success(function() { })
+    .error(function() {  })
+    .complete(function() { });
+  });
+});
+ 
+
+</script>
+<body>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="http://free87.3vzhuji.net/index.asp#">Mini Games</a>
+	  <a style="color:red" class="navbar-brand" href="http://free87.3vzhuji.net/index.asp?type=top">Top Game</a>
+	  </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://free87.3vzhuji.net/index.asp#">Home</a></li>
+        <li style="display:none"><a href="http://free87.3vzhuji.net/index.asp?type=top">Top Game</a></li>
+        <li style="display:none"><a href="http://www.cuo.so/popstar/index.html">popstar</a></li>
+        <li><a href="http://free87.3vzhuji.net/index.asp#about">About</a></li>
+        <li><a href="http://free87.3vzhuji.net/index.asp#contact">Contact</a></li>
+        <li style="display:none"><a href="http://www.cuo.so/category/cuo-game/">Blog</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> 
+  </div>
+</div>
+<div class="container projects"> 
+	<div class="jumbotron">
+		 <marquee width="100%" direction="left" behavior="alternate" loop="-1" scrolldelay="1" scrollamount="2"><h2>Welcome Here</h2></marquee>
+	</div>
+  <!-- Main component for a primary marketing message or call to action -->
+	<div class="row"> 
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1206363756">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="宝贝厨师（Baby Chef�?ad_words=" 	   class="artwork" src="http://is1.mzstatic.com/image/thumb/Purple122/v4/16/50/0b/16500b5c-c162-1cd4-34fe-fee68f37119a/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1206363756">Download times:50  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1206363756" title="宝贝厨师（Baby Chef" target="">宝贝厨师（Baby Chef<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">Baby recently like make dessert at rest time. today,she will go shopping to buy some dessert ingredients and make dessert at home. so help her made delicious dessert! baby make dessert is a very fun g</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1206363756" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1205070551">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Princess SPA Massage" 	   class="artwork" src="http://is1.mzstatic.com/image/thumb/Purple122/v4/20/98/14/209814f6-a733-d337-c6eb-6770a9551d9c/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1205070551">Download times:179  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1205070551" title="Princess SPA Massage" target="">Princess SPA Massage<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">A relaxing spa massage is a delightful treatment after a stresful day, but being a masseur is not easy. You must know how to apply massage techniques, how to relax muscles andhow to make your client f</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1205070551" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1128198396">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Make An Eye Surgery" 	   class="artwork" src="http://is4.mzstatic.com/image/thumb/Purple111/v4/c8/fe/4d/c8fe4d92-4cd5-127a-e88e-e01b3aa0d485/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1128198396">Download times:0  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1128198396" title="Make An Eye Surgery" target="">Make An Eye Surgery<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">My good friend just had extensive eye surgery to correct some faulty vision. but that's the kind of world we live in nowadays. most people spend 8 or more hours in front of some type of screen or by s</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1128198396" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1194004168">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Great Robot VS Monsters" 	   class="artwork" src="http://is4.mzstatic.com/image/thumb/Purple91/v4/2f/a1/6f/2fa16f22-d8e8-a359-6966-adfed3dd954e/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1194004168">Download times:712  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1194004168" title="Great Robot VS Monsters" target="">Great Robot VS Monsters<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">ultraman is a universe hero, he save earth, kill many monsters , but now have a lot of monsters , ultraman now goes to earth to kill monsters .
+you can control ultraman following introduce .</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1194004168" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1173467294">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Foot Surgery at the Doctor" 	   class="artwork" src="http://is2.mzstatic.com/image/thumb/Purple71/v4/6f/b7/e8/6fb7e8cc-669a-0c92-d6b2-ecb7c5604e4a/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1173467294">Download times:2573  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1173467294" title="Foot Surgery at the Doctor" target="">Foot Surgery at the Doctor<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">Try your best when you will play foot surgery. if you don't like games, we have several other free games for you. hurry up! a new accident patient. she crashed with a car while walking on the road. se</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1173467294" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1167513580">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Cute Baby Flu Doctor" 	   class="artwork" src="http://is4.mzstatic.com/image/thumb/Purple71/v4/6d/df/9b/6ddf9bc5-c4e4-9e63-29e0-4f3832117e32/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1167513580">Download times:2633  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1167513580" title="Cute Baby Flu Doctor" target="">Cute Baby Flu Doctor<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">This lovely baby slept with the windows open and now she is sick. your doctor skills are needed! apply a cold compress to lower the baby's temperature, check the heart rate and administer some syrup. </p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1167513580" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1168612304">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Cooking Lemon Cupcake" 	   class="artwork" src="http://is5.mzstatic.com/image/thumb/Purple71/v4/35/a5/02/35a502de-b921-dc43-614a-5e06ba2bb29c/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1168612304">Download times:2052  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1168612304" title="Cooking Lemon Cupcake" target="">Cooking Lemon Cupcake<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">Step into this full of color kitchen to start cooking the most delicious lemon flavored cupcakes with buttercream rainbow frosting. shop for all ingredients and pay with your credit card, hurry home a</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1168612304" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1128198396">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Make An Eye Surgery" 	   class="artwork" src="http://is3.mzstatic.com/image/thumb/Purple30/v4/a6/0e/be/a60ebe03-b948-5ed1-c07e-9d6c26326469/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1128198396">Download times:1556  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1128198396" title="Make An Eye Surgery" target="">Make An Eye Surgery<br>
+							<small>
+								
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">My good friend just had extensive eye surgery to correct some faulty vision. but that's the kind of world we live in nowadays. most people spend 8 or more hours in front of some type of screen or by s</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1128198396" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4 ">
+			<div class="thumbnail"> 
+				<a class="link" href="javascript:void()" id="1113639654">
+					<div class="artwork" width="150" height="150">
+					<img style="-moz-border-radius: 40px;-webkit-border-radius: 40px; border-radius: 40px;" width="150" height="150" alt="Cute Baby Bed Time" 	   class="artwork" src="http://is1.mzstatic.com/image/thumb/Purple18/v4/4c/92/d1/4c92d1a0-5d55-4baf-4390-f131ec787519/source/512x512bb.jpg"> 
+					</div>
+				</a>
+				<div class="caption">
+					<div id="appleid1113639654">Download times:2021  times
+					</div>
+					<h5> 
+						<a  class="link"  href="javascript:void()" id="1113639654" title="Cute Baby Bed Time" target="">Cute Baby Bed Time<br>
+							<small>
+								Hazel
+							</small>
+						</a> 
+					</h5>
+                  <p class="description">Baby hazel bed time is a game in which you are going to help baby hazel take part in various bedtime activities. she has to brush her teeth, take a shower, be told a bedtime story and much more. being</p>
+				</div>
+				<div>
+					<a class="link" href="javascript:void()" id="1113639654" target="_blank"><img src="./img/standard-icon-iOS-app-store.png" alt="" 		style="display:inline">
+					</a>
+				</div>
+			</div>
+		</div>
+ 
+  </div>
+  <div class="jumbotron" id="about">
+    <h1>About Us</h1>
+    <p>We develop and collection of  interesting games, hoping to bring joy to your life</p>
+  </div>
+  <div class="jumbotron" id="contact">
+    <h1>Contact Us</h1>
+    <p>Email：appleid0429@163.com</p>
+  </div>
+</div>
+<div align="center"></div>
+
+<div style="display:none">
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/18755612.js"></script>
+<noscript><a href="http://www.51.la/?18755612" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18755612.asp" style="border:none" /></a></noscript>
+</div>
+</body></html><script src="http://www.3v.do/ad/ad.js"></script>
+<div style="display:none"> <script src="http://s9.cnzz.com/stat.php?id=986628&web_id=986628" language="javascript"></script></div>
