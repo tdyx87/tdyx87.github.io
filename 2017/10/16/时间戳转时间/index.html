@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>归档 | Tdyx87&#39;s Blog</title>
+  <title>时间戳转时间 | Tdyx87&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Tdyx87&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="时间戳转时间">
+<meta name="keywords" content="C++,C,时间戳">
+<meta property="og:type" content="article">
+<meta property="og:title" content="时间戳转时间">
+<meta property="og:url" content="http://yoursite.com/2017/10/16/时间戳转时间/index.html">
 <meta property="og:site_name" content="Tdyx87&#39;s Blog">
+<meta property="og:description" content="时间戳转时间">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-10-16T06:32:46.620Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tdyx87&#39;s Blog">
+<meta name="twitter:title" content="时间戳转时间">
+<meta name="twitter:description" content="时间戳转时间">
   
     <link rel="alternate" href="/atom.xml" title="Tdyx87&#39;s Blog" type="application/atom+xml">
   
@@ -60,46 +65,59 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
+        <section id="main"><article id="post-时间戳转时间" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/10/16/时间戳转时间/" class="article-date">
+  <time datetime="2017-10-16T06:32:46.525Z" itemprop="datePublished">2017-10-16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/时间戳/">时间戳</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    
-<!-- 归档 -->
-<article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-	  
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/10/16/时间戳转时间/">时间戳转时间</a>
+    <h1 class="article-title" itemprop="name">
+      时间戳转时间
     </h1>
   
 
-	  <a href="/2017/10/16/时间戳转时间/" class="archive-article-date">
-  <time datetime="2017-10-16T06:32:46.525Z" itemprop="datePublished">10月 16</time>
-</a>
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">time_t</span> timet = <span class="number">1477843200</span>;</div><div class="line"><span class="keyword">struct</span> tm * t = localtime(&amp;timet);</div><div class="line"><span class="built_in">printf</span>(<span class="string">"%d-%d-%d-%d-%d-%d"</span>,t-&gt;tm_year+<span class="number">1900</span>,t-&gt;tm_mon+<span class="number">1</span>,t-&gt;tm_mday,t-&gt;tm_hour,t-&gt;tm_min,t-&gt;tm_sec);</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/10/16/时间戳转时间/" data-id="cj8tt1lrz0004k0ctubvdqbat" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/10/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
-
-  <nav id="page-nav">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/5/">5</a><a class="extend next" rel="next" href="/archives/page/2/">下一页 &raquo; </a>
-  </nav>
 </section>
         
           <aside id="sidebar">

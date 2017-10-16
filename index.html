@@ -62,14 +62,14 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-时间戳转时间" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/10/16/hexo/" class="article-date">
-  <time datetime="2017-10-16T06:13:29.093Z" itemprop="datePublished">2017-10-16</time>
+    <a href="/2017/10/16/时间戳转时间/" class="article-date">
+  <time datetime="2017-10-16T06:32:46.525Z" itemprop="datePublished">2017-10-16</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+    <a class="article-category-link" href="/categories/时间戳/">时间戳</a>
   </div>
 
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/16/hexo/">Hexo的部署</a>
+      <a class="article-title" href="/2017/10/16/时间戳转时间/">时间戳转时间</a>
     </h1>
   
 
@@ -88,19 +88,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="1、安装必备软件-node-js-git"><a href="#1、安装必备软件-node-js-git" class="headerlink" title="1、安装必备软件 node.js git"></a>1、安装必备软件 node.js git</h1><h1 id="2、安装hexo"><a href="#2、安装hexo" class="headerlink" title="2、安装hexo"></a>2、安装hexo</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">npm install -g hexo</div><div class="line">npm install hexo-deployer-git --save</div><div class="line"></div><div class="line">hexo init</div><div class="line"></div><div class="line">hexo clean (hexo c)</div><div class="line"></div><div class="line">hexo generate (hexo g)</div><div class="line"></div><div class="line">hexo deploy (hexo d)</div></pre></td></tr></table></figure>
-<h1 id="3-配置-config-yml"><a href="#3-配置-config-yml" class="headerlink" title="3.配置_config.yml"></a>3.配置_config.yml</h1><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repository:</span> https://github.com/tdyx87/tdyx87.github.io.git</div><div class="line"><span class="attr">  branch:</span> master</div></pre></td></tr></table></figure>
-<h1 id="4-支持图片"><a href="#4-支持图片" class="headerlink" title="4.支持图片"></a>4.支持图片</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure>
-<p>修改_config.yml</p>
-<p>post_asset_folder: true</p>
+        <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">time_t</span> timet = <span class="number">1477843200</span>;</div><div class="line"><span class="keyword">struct</span> tm * t = localtime(&amp;timet);</div><div class="line"><span class="built_in">printf</span>(<span class="string">"%d-%d-%d-%d-%d-%d"</span>,t-&gt;tm_year+<span class="number">1900</span>,t-&gt;tm_mon+<span class="number">1</span>,t-&gt;tm_mday,t-&gt;tm_hour,t-&gt;tm_min,t-&gt;tm_sec);</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/16/hexo/" data-id="cj8tsew5x00016kctfii1v9ou" class="article-share-link">分享</a>
+      <a data-url="http://yoursite.com/2017/10/16/时间戳转时间/" data-id="cj8tt1lrz0004k0ctubvdqbat" class="article-share-link">分享</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li></ul>
 
     </footer>
   </div>
@@ -112,7 +108,7 @@
 
 
   <nav id="page-nav">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo; </a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo; </a>
   </nav>
 </section>
         
@@ -122,7 +118,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/android-JNI/">android JNI</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/android-JNI/">android JNI</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/时间戳/">时间戳</a></li></ul>
     </div>
   </div>
 
@@ -132,7 +128,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/JNI/">JNI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/android/">android</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/">c++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/makedown/">makedown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/native/">native</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JNI/">JNI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/android/">android</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/">c++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/makedown/">makedown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/native/">native</a></li></ul>
     </div>
   </div>
 
@@ -142,7 +138,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/JNI/" style="font-size: 10px;">JNI</a> <a href="/tags/android/" style="font-size: 10px;">android</a> <a href="/tags/c/" style="font-size: 10px;">c++</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/makedown/" style="font-size: 10px;">makedown</a> <a href="/tags/native/" style="font-size: 10px;">native</a>
+      <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/JNI/" style="font-size: 10px;">JNI</a> <a href="/tags/android/" style="font-size: 10px;">android</a> <a href="/tags/c/" style="font-size: 10px;">c++</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/makedown/" style="font-size: 10px;">makedown</a> <a href="/tags/native/" style="font-size: 10px;">native</a>
     </div>
   </div>
 
@@ -164,11 +160,15 @@
       <ul>
         
           <li>
-            <a href="/2017/10/16/hexo/">Hexo的部署</a>
+            <a href="/2017/10/16/时间戳转时间/">时间戳转时间</a>
           </li>
         
           <li>
             <a href="/2017/10/16/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/10/16/hexo/">Hexo的部署</a>
           </li>
         
           <li>
