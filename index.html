@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tdyx87&#39;s Blog</title>
+  <title>GitHub个人主页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Tdyx87&#39;s Blog">
+<meta property="og:title" content="GitHub个人主页">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Tdyx87&#39;s Blog">
+<meta property="og:site_name" content="GitHub个人主页">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tdyx87&#39;s Blog">
+<meta name="twitter:title" content="GitHub个人主页">
   
-    <link rel="alternate" href="/atom.xml" title="Tdyx87&#39;s Blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="GitHub个人主页" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -34,7 +34,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Tdyx87&#39;s Blog</a>
+        <a href="/" id="logo">GitHub个人主页</a>
       </h1>
       
     </div>
@@ -93,10 +93,57 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/16/时间戳转时间/" data-id="cjk3dorav00065gct5dojwaa5" class="article-share-link">分享</a>
+      <a data-url="http://yoursite.com/2017/10/16/时间戳转时间/" data-id="cjk3et6yu0005b4ctfrqsrkbk" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/10/16/hexo/" class="article-date">
+  <time datetime="2017-10-16T06:13:29.093Z" itemprop="datePublished">2017-10-16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/16/hexo/">Hexo的部署</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1、安装必备软件-node-js-git"><a href="#1、安装必备软件-node-js-git" class="headerlink" title="1、安装必备软件 node.js git"></a>1、安装必备软件 node.js git</h1><h1 id="2、安装hexo"><a href="#2、安装hexo" class="headerlink" title="2、安装hexo"></a>2、安装hexo</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">npm install -g hexo</div><div class="line">npm install hexo-deployer-git --save</div><div class="line"></div><div class="line">hexo init</div><div class="line"></div><div class="line">hexo clean (hexo c)</div><div class="line"></div><div class="line">hexo generate (hexo g)</div><div class="line"></div><div class="line">hexo deploy (hexo d)</div></pre></td></tr></table></figure>
+<h1 id="3-配置-config-yml"><a href="#3-配置-config-yml" class="headerlink" title="3.配置_config.yml"></a>3.配置_config.yml</h1><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repository:</span> https://github.com/tdyx87/tdyx87.github.io.git</div><div class="line"><span class="attr">  branch:</span> master</div></pre></td></tr></table></figure>
+<h1 id="4-支持图片"><a href="#4-支持图片" class="headerlink" title="4.支持图片"></a>4.支持图片</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure>
+<p>修改_config.yml</p>
+<p>post_asset_folder: true</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/10/16/hexo/" data-id="cjk3et6yi0001b4ct56mlevwe" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
 
     </footer>
   </div>
@@ -140,56 +187,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/16/hello-world/" data-id="cjk3dorao00035gcte4jmli8h" class="article-share-link">分享</a>
+      <a data-url="http://yoursite.com/2017/10/16/hello-world/" data-id="cjk3et6yw0006b4ctj3ijok72" class="article-share-link">分享</a>
       
       
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/10/16/hexo/" class="article-date">
-  <time datetime="2017-10-16T06:13:29.093Z" itemprop="datePublished">2017-10-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/hexo/">hexo</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/16/hexo/">Hexo的部署</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="1、安装必备软件-node-js-git"><a href="#1、安装必备软件-node-js-git" class="headerlink" title="1、安装必备软件 node.js git"></a>1、安装必备软件 node.js git</h1><h1 id="2、安装hexo"><a href="#2、安装hexo" class="headerlink" title="2、安装hexo"></a>2、安装hexo</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">npm install -g hexo</div><div class="line">npm install hexo-deployer-git --save</div><div class="line"></div><div class="line">hexo init</div><div class="line"></div><div class="line">hexo clean (hexo c)</div><div class="line"></div><div class="line">hexo generate (hexo g)</div><div class="line"></div><div class="line">hexo deploy (hexo d)</div></pre></td></tr></table></figure>
-<h1 id="3-配置-config-yml"><a href="#3-配置-config-yml" class="headerlink" title="3.配置_config.yml"></a>3.配置_config.yml</h1><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repository:</span> https://github.com/tdyx87/tdyx87.github.io.git</div><div class="line"><span class="attr">  branch:</span> master</div></pre></td></tr></table></figure>
-<h1 id="4-支持图片"><a href="#4-支持图片" class="headerlink" title="4.支持图片"></a>4.支持图片</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure>
-<p>修改_config.yml</p>
-<p>post_asset_folder: true</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/16/hexo/" data-id="cjk3doras00055gct0hg7yoes" class="article-share-link">分享</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-
     </footer>
   </div>
   
@@ -256,11 +256,11 @@
           </li>
         
           <li>
-            <a href="/2017/10/16/hello-world/">Hello World</a>
+            <a href="/2017/10/16/hexo/">Hexo的部署</a>
           </li>
         
           <li>
-            <a href="/2017/10/16/hexo/">Hexo的部署</a>
+            <a href="/2017/10/16/hello-world/">Hello World</a>
           </li>
         
           <li>
